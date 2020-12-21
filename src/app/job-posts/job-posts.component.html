@@ -1,0 +1,9 @@
+<div class="container">
+  <div class="row">
+    <div class="col-xs-12 list-group-item"
+      *ngFor="let jobPost of jobPosts">
+      <h4 class="list-group-item-heading">{{ jobPost.area }}</h4>
+      <p class="list-group-item-text">Plase contact {{ jobPost.contact }}</p>
+    </div>
+  </div>
+</div>
